@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Research | Firas Khatib</title>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/fkhatib.css" rel="stylesheet">
+    
+
+    <link rel="shortcut icon" href="images/Retina-Ready.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+  <body>
+		<header>
+			<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="index.html"><p class="nav-name">Khatib's Lab</p></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" data-loc="research">Research</a></li>
+					<li><a href="publications.html" data-loc="publications">Publications</a></li>
+					<li><a href="media.html" data-loc="media">Media</a></li>
+					<li><a href="contact.html" data-loc="contact">Contact Information</a></li>
+					<li><a href="cv.html" data-loc="cv">CV</a></li>
+					
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		
+	<div class="container">
+		<section class="scroll-panel">
+		<div class="jumbotron jumbotron-midnight">
+			<h5 class="">Prediction and Design of Protein Structures and Protein-protein Interactions</h5>
+			<p><span style=""><strong><span style="font-size: medium; font-family: helvetica;">From prediction of structure to design of function</span></strong></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; The primary goals of the research in the Baker group over the past several years have been to predict the structures of naturally occurring biomolecules and interactions and to design new molecules with new and useful functions. These prediction and design challenges have direct relevance for biomedicine and provide stringent and objective tests of our understanding of the fundamental underpinnings of molecular biology.</span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; To carry out the prediction and design calculations, we have been developing a computer program called Rosetta. At the core of Rosetta are potential functions for computing the energies of interactions within and between macromolecules, and methods for finding the lowest energy structure for a protein or RNA sequence (structure prediction) and for finding the lowest energy sequence for a protein or given structure or function (design) (Das and Baker, 2008). Feedback from the prediction and design tests is used continually to improve the potential functions and the search algorithms. Development of one computer program to treat these diverse problems has considerable advantages: first, the different applications provide complementary tests of the underlying physical model (the fundamental physics/physical chemistry is, of course, the same in all cases); second, many problems of current interest, such as flexible backbone protein design and protein-protein docking with backbone flexibility, involve a combination of the different optimization methods.</span><br /><span style="font-size: small; font-family: helvetica;">Prediction of Protein Structures and Interactions &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; We have continued to improve the Rosetta ab initio structure prediction methodology, and in blind tests for small proteins have in some cases achieved atomic level accuracy (Qian et al, 2008; Das et al, 2007; Raman et al, 2009).&nbsp; We have extended the methodology to metal binding proteins (Wang et al, 2010), membrane proteins (Barth et al, 2007), symmetric protein complexes (Andre et al, 2007; Das et al, 2009), RNA molecules (Das et al, 2007; Das et al, in press), flexible backbone protein-protein docking (Wang et al, 2007), and protein-small molecule docking for drug design (Meiler and Baker, 2006; Davis and Baker, 2009; Davis et al, 2009). We have found a striking high level similarity between all of these problems.&nbsp; In all cases, the native folded structure is lower in energy than any non-native structures we can generate even with large scale sampling.&nbsp; Pronounced “native energy gaps” must exist because biopolymers can only fold to unique native states if the native state is very much lower in energy than all other possible conformations—our observation of significant energy gaps in all of the biological systems we have examined indicates that the magnitude of the actual gaps is considerably larger than the noise resulting from the remaining inaccuracies in the Rosetta forcefield. </span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Because our model of interatomic interactions has reached sufficient accuracy that native structures are almost always significantly lower in energy than nonnative structures, the problem of predicting the structure of a protein, RNA, protein complex, etc.&nbsp; has become primarily a search problem: starting from an extended chain we must sample close enough to the native free-energy minimum for the energy to drop lower than for all the nonnative conformations generated. &nbsp;&nbsp;The challenge is that the energy drops only when the structure is sufficiently close (~2RMSD) to realize the close complementary packing and precise hydrogen bonding of the native structure (Bradley et al, 2005; Kim et al, 2009).</span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Because of the large number of possible conformations for a protein or RNA chain, finding the lowest energy state is a formidable computational challenge. &nbsp;We have developed a distributed computing project, called Rosetta@home (boinc.bakerlab.org/rosetta), to meet this challenge. There are now more than 200,000 participants worldwide whose computers run Rosetta structure prediction and design calculations when not otherwise being used. The project has sparked considerable interest in biomedical research. Inspired by this, we are working with high school teachers to develop a minicurriculum for students that will explain the science around Rosetta@home. We are also developing a multiplayer, interactive video game version of Rosetta@home called Foldit (http::/fold.it/; Nature ref) that we believe will be an excellent vehicle for learning and, by allowing people to work with each other and with their computers, may allow solution of difficult scientific problems.&nbsp; Foldit players have already exhibited quite amazing prowess both in solving hard structure prediction problems and in developing new algorithms and strategies for solving these problems.</span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Even with Rosetta@home, the sampling problem remains insurmountable for all but the simplest proteins.&nbsp; We have however opened up a very exciting new area by cheating a bit—using experimental data or protein homology information to overcome the sampling problem by constraining the search to the vicinity of the native energy minimum.&nbsp; To achieve adequate sampling starting from information from structures of remote homologues, we have developed a multiscale search algorithm that begins with a broad low-resolution search over a wide range of conformations (Qian et al, 2008). It then shifts to a search using a detailed all atom representation for tightly packed conformations in which buried polar groups form hydrogen bonds to compensate for the loss of interactions with water.</span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; The first indication of the power of the Rosetta structure prediction methodology in combination with experimental data was the finding that a prediction of the structure of a CASP7 (critical assessment of structural prediction) target had sufficiently high accuracy that the x-ray crystallographic phase problem could be solved with the model (Qian et al, 2008). &nbsp;Subsequent work showed that high resolution refinement using the newly developed Rosetta rebuild and refine protocol in a number of cases significantly improved molecular replacement using comparative models and NMR structures as starting points (Qian et al, 2008; Das et al, 2009).&nbsp; This was an important milestone for protein structure prediction since quite high accuracy is required for molecular replacement.</span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; To allow guidance of the search process using X-ray and cryo-electron microscopy data, we incorporated a “fit to density” term into Rosetta (DiMaio et al, 2009).&nbsp; This has allowed the building of atomically detailed models based on 4.5-7Å experimental electron density maps from cryoelectron microscopy. &nbsp;&nbsp;We have encouraging recent results suggesting that by refining models with density we can solving x-ray structures starting from molecular replacement matches too weak for conventional methods to converge.</span><br /><span style="font-size: small; font-family: helvetica;"></span></p>
+			<p><span style="font-size: small; font-family: helvetica;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; In the NMR area, we showed in collaboration with Ad Bax that using NMR chemical shifts to guide the selection of fragments used in the first low resolution part of the Rosetta search process dramatically increased sampling around the native structure (Shen et al, 2008).&nbsp; We showed subsequently that incorporating unassigned sidechain NOESY data improved performance further (Raman et al, 2010a).&nbsp; The biggest breakthrough came with incorporating residual dipolar coupling and backbone NOESY data—with this relatively easy to collect data, we are able to solve structures of proteins of up to 200 amino acids with a fraction of the time and effort required for traditional NMR structure determination of proteins of this size (Raman et al, 2010b).&nbsp; We are currently working to push the approach into the 200-400 residue size range where current NMR methodology is largely unsuccessful.&nbsp; The Rosetta-NMR methodology is increasingly being used to solve structures in the NMR community.</span></p>
+			</div>
+		</section>
+	</div>	
+    
+	
+	<footer id="footer" class="footer-height footer-color">
+      <div class="container footer-row">
+		<div class="footer-left">
+		<br/>For more information:<br/>
+
+		
+		<a href="http://www.umassd.edu/engineering/cis/people/facultyandstaff/firaskhatib/" class="linkcolor info">UMass Dartmouth</a>
+		<a href="http://scholar.google.com/citations?user=1WSaBBsAAAAJ" class="linkcolor info"></br/>Google Scholar Page</a><br/>
+		</div>
+        <div class="row footer-right">
+			<div class="col-xs-7">
+				<a target="_blank" href="http://fold.it/portal/info/about" class="footer-brand">
+				  <img class="ftr-img" src="images/fold-it.png" />
+				</a>
+			</div> 
+        </div>
+      </div>
+    </footer>
+    
+	<!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>	
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.stacktable.js"></script>
+    <script src="http://vjs.zencdn.net/4.3/video.js"></script>
+    <script src="js/application.js"></script>
+	
+	<script>
+		(function ($) {
+			$('#navbar, #bottom-nav').on('click', 'li a', function(){
+				var $clickedAnchor = $(this);
+					$panelToScrollTo = $('#' + $clickedAnchor.data('loc'));
+				//console.log($panelToScrollTo[0]);
+			});
+			
+		}(jQuery));
+	</script>
+	
+  </body>
+</html>
