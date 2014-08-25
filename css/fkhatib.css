@@ -71,6 +71,15 @@ img{
 	padding-top: 200px;
 }
 
+.scroll-panel1{
+	padding-top: 78px;
+}
+
+.research_img{
+	width: 500px;
+	height: 500px;
+}
+
 .jumbotron { border-radius: 0 !important; padding:0 !important }
 
 .jumbotron-midnight{
