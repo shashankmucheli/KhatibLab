@@ -208,3 +208,9 @@ img{
 		height: 100%;
 	}
 }
+
+@media (max-width: 767px) {
+	.text-resize {
+		font-size: 12px;
+	}
+}
