@@ -29,8 +29,8 @@ img{
 }
 
 .white-text{
-	background-color: grey;
-	color: #fff;
+	background-color: white;
+	color: #000;
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -113,6 +113,9 @@ img{
 	width: 100%;
 	text-align: center;
 }
+.item-box-12{
+	height:160px !important;
+}
 
 .footer-left{
 	float:left;
@@ -132,14 +135,14 @@ img{
 	color: #34495e;
 }
 .research_links{
-	color: #fff;
+	color: #34495e;
 	font-size: 18px;
 	float:right;
 	font-weight:bold;
 }
 
 .research_links:hover{
-	color: #34495e;;
+	color: #1abc9c;
 }
 
 .text-centered { text-align: center;}
