@@ -5,9 +5,9 @@ Two ways to get access to the web pages:
 ----------------------------------------- 
 Logging onto Uranium server and downloading the code:
 
-	1. Get access to the uranium server (the server which hosts the website) from either Paul R. Naylor or Dr. Khatib himself. (logins for fkhatib@www.cis.umassd.edu) 
+1. Get access to the uranium server (the server which hosts the website) from either Paul R. Naylor or Dr. Khatib himself. (logins for fkhatib@www.cis.umassd.edu) 
 	
-	2. Navigate to the web directory inside the home directory to download/modify the web pages.
+2. Navigate to the web directory inside the home directory to download/modify the web pages.
 	
 Git pull from my github repo: 
 	Pull the code using this link: https://github.com/shashankmucheli/KhatibLab.git
@@ -19,11 +19,11 @@ The website is pretty much static and hence there is no need create anything on 
 CSS: Apart from the default styling that we get, I have defined some rules specific to our requirements, I have stored all these rules in a CSS file named fkhatib.css in the CSS directory.
 Each webpage is divided into three sections: 
 
-	Navbar or Headers: This section takes care of the redirections and the menu bar that appear on the top of each page. 
-	
-	The container div: This contains the web page data. All the divs are styled according to the guidelines specified by flat-ui, more details can be found here: http://designmodo.github.io/Flat-UI/
-	
-	The footer Section: It contains the links and logos in the footer section.
+Navbar or Headers: This section takes care of the redirections and the menu bar that appear on the top of each page. 
+
+The container div: This contains the web page data. All the divs are styled according to the guidelines specified by flat-ui, more details can be found here: http://designmodo.github.io/Flat-UI/
+
+The footer Section: It contains the links and logos in the footer section.
 
 Uploading the modified data back to the server:
 ----------------------------------------------- 
